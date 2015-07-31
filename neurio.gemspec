@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'neurio'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2015-07-31'
   s.summary     = "Neurio API"
   s.description = "API functionality for Neurio energy monitoring devices.  See http://neur.io/"
