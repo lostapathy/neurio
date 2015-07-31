@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    neurio (0.0.0)
-      httparty (~> 0.13, >= 0.13.5)
+    neurio (0.0.2)
+      httparty (~> 0.13)
 
 GEM
   remote: https://rubygems.org/
@@ -12,9 +12,16 @@ GEM
       multi_xml (>= 0.5.2)
     json (1.8.3)
     multi_xml (0.5.5)
+    redcarpet (3.3.2)
+    yard (0.8.7.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   neurio!
+  redcarpet (~> 3.3)
+  yard (~> 0.8)
+
+BUNDLED WITH
+   1.10.6

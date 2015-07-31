@@ -13,7 +13,11 @@ class Neurio
     end
   end
   
-  
+  # Specify
+  #
+  # @param options [Hash] configuration options
+  # @option options client_id [String] the Neurio client id
+  # @option options client_secret [String] the Neurio client secret
   def initialize(options)
     @client_secret = options[:client_secret]
     @client_id = options[:client_id]
