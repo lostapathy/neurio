@@ -24,7 +24,7 @@ class Neurio
     headers =  {"content_type" => "application/json", "authorization" => "Bearer #{token}"}
     query = {"sensorId" => sensor_id}
     response = self.class.get("/v1/samples/live/last", :headers => headers, :query => query)
-    Reading.new(response)
+    Reading.new(response, sensor_id)
   end
   
 
@@ -48,7 +48,7 @@ class Neurio
     end
     
     response = self.class.get("/v1/samples/live", :headers => headers, :query => query)
-    response.map{|x| Reading.new(x)}
+    response.map{|x| Reading.new(x, sensor_id)}
   end
 
   private
