@@ -71,6 +71,7 @@ PLATFORMS
 DEPENDENCIES
   guard-rspec (~> 4.6)
   neurio!
+  pry (~> 0.10.1)
   redcarpet (~> 3.3)
   rspec (~> 3.3)
   yard (~> 0.8)
