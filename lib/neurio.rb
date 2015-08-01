@@ -27,7 +27,6 @@ class Neurio
     Reading.new(response, sensor_id)
   end
   
-
   # Look up the ID of the first (and usually only) sensor associated with this account
   #
   # @return [String] The Neurio sensorId

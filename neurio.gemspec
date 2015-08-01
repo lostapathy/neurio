@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Joe Francis']
   s.email       = 'joe@lostapathy.com'
   s.files       = ['lib/neurio.rb']
-  s.homepage    = 'http://rubygems.org/gems/neurio'
+  s.homepage    = 'https://github.com/lostapathy/neurio'
   s.license     = 'MIT'
   
   s.require_paths = ['lib']
@@ -15,4 +15,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'httparty', '~> 0.13'
   s.add_development_dependency 'yard', '~> 0.8'
   s.add_development_dependency 'redcarpet', '~> 3.3'
+  s.add_development_dependency 'rspec', '~> 3.3'
+  s.add_development_dependency 'guard-rspec', '~> 4.6'
 end

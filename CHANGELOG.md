@@ -2,6 +2,7 @@
 ==================
 
 * Example in README
+* Started adding specs
 
 0.0.2 / 2015-07-31
 ==================
