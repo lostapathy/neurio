@@ -9,11 +9,11 @@ Gem::Specification.new do |s|
   s.files       = ['lib/neurio.rb']
   s.homepage    = 'https://github.com/lostapathy/neurio'
   s.license     = 'MIT'
-  
+
   s.require_paths = ['lib']
-  
+
   s.add_runtime_dependency 'httparty', '~> 0.13'
-  s.add_development_dependency 'yard', '~> 0.8'
+  s.add_development_dependency 'yard', '~> 0.9.11'
   s.add_development_dependency 'redcarpet', '~> 3.3'
   s.add_development_dependency 'rspec', '~> 3.3'
   s.add_development_dependency 'guard-rspec', '~> 4.6'
